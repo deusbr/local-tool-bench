@@ -1,0 +1,32 @@
+{
+  "name": "local-tool-bench",
+  "version": "1.0.0",
+  "description": "Zero-dependency tool-calling benchmark suite and JSON schema repair micro-proxy for local GGUF/llama.cpp and Ollama models.",
+  "main": "index.cjs",
+  "bin": {
+    "local-tool-bench": "./bin/local-tool-bench.cjs"
+  },
+  "scripts": {
+    "check": "node --check index.cjs && node --check bin/local-tool-bench.cjs && node --check lib/repair.cjs && node --check lib/bench.cjs && node --check lib/proxy.cjs && node --check tests/local-tool-bench.test.cjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "keywords": [
+    "local-ai",
+    "llama-cpp",
+    "ollama",
+    "gguf",
+    "mcp",
+    "tool-calling",
+    "benchmark",
+    "json-schema"
+  ],
+  "author": "Emerson Almeida <https://github.com/deusbr>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deusbr/local-tool-bench.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
