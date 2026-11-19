@@ -8,7 +8,7 @@
   },
   "scripts": {
     "check": "node --check index.cjs && node --check bin/local-tool-bench.cjs && node --check lib/repair.cjs && node --check lib/bench.cjs && node --check lib/proxy.cjs && node --check tests/local-tool-bench.test.cjs",
-    "test": "node --test tests/*.test.cjs"
+    "test": "node --test tests/local-tool-bench.test.cjs"
   },
   "keywords": [
     "local-ai",
