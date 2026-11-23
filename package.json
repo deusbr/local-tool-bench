@@ -1,6 +1,6 @@
 {
   "name": "local-tool-bench",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Zero-dependency tool-calling benchmark suite and JSON schema repair micro-proxy for local GGUF/llama.cpp and Ollama models.",
   "main": "index.cjs",
   "bin": {
